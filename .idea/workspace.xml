@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dccf3f13-ad60-47a9-a999-182ba69eb1c3" name="Changes" comment="Supporting parameters unit tests">
+    <list default="true" id="dccf3f13-ad60-47a9-a999-182ba69eb1c3" name="Changes" comment="Adding target/">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/git/calculator/CalculatorExecute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,9 +53,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalculatorExecute.executor": "Run",
     "JUnit.CalculatorParametersTest.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.sample-calculator-git [clean].executor": "Run",
+    "Maven.sample-calculator-git [package].executor": "Run",
+    "Maven.sample-calculator-git [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
@@ -72,7 +77,20 @@
       <recent name="ec.edu.epn.git.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorParametersTest">
+  <component name="RunManager" selected="Application.CalculatorExecute">
+    <configuration name="CalculatorExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.git.calculator.CalculatorExecute" />
+      <module name="sample-calculator-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.git.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sample-calculator-git" />
       <extension name="coverage">
@@ -105,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorExecute" />
         <item itemvalue="JUnit.CalculatorParametersTest" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
@@ -135,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760814511596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding target/">
+      <option name="closed" value="true" />
+      <created>1760814983299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760814983299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding calculator class and unit tests" />
     <MESSAGE value="Supporting parameters unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Supporting parameters unit tests" />
+    <MESSAGE value="Adding target/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding target/" />
   </component>
 </project>
