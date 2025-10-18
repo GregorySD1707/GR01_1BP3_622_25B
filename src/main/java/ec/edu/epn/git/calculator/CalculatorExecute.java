@@ -10,5 +10,8 @@ public class CalculatorExecute {
 
         int subtraction = c.subtraction(7,1);
         System.out.println("c.subtraction(7,1) = " + subtraction);
+
+        double division = c.division(10,5);
+        System.out.println("c.division(10,5) = " + division);
     }
 }
